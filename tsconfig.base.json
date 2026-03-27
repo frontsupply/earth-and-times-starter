@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "es2022"
+    ],
+    "allowJs": false,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "baseUrl": ".",
+    "paths": {
+      "@earth-times/engine": [
+        "packages/engine/src/index.ts"
+      ],
+      "@earth-times/types": [
+        "packages/types/src/index.ts"
+      ],
+      "@earth-times/ui": [
+        "packages/ui/src/index.ts"
+      ],
+      "@earth-times/content": [
+        "packages/content/src/index.ts"
+      ]
+    }
+  }
+}
