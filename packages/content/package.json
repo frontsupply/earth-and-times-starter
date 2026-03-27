@@ -2,5 +2,9 @@
   "name": "@earth-times/content",
   "private": true,
   "version": "0.0.0",
-  "main": "src/index.ts"
+  "main": "src/index.ts",
+  "dependencies": {
+    "@earth-times/types": "0.0.0",
+    "@supabase/supabase-js": "^2.50.0"
+  }
 }
